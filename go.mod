@@ -1,3 +1,3 @@
-module github.com/lineus/loadaws
+module github.com/lineus/go-loadAWS
 
 go 1.15
