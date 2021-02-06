@@ -17,8 +17,8 @@ type Config struct {
 	}
 }
 
-// FromENV - loads config from ~/.env.json
-func FromENV() (Config, error) {
+// FromJSON - loads config from ~/.env.json
+func FromJSON() (Config, error) {
 	homedir, ok := os.LookupEnv("HOME")
 	if !ok {
 		log.Fatal("Failed To Lookup $HOME")
